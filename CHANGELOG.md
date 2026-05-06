@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.3.0] - 2026-05-06
+
+### Added
+- `scripts/03_extract_domain_seqs.py`: Extract domain-containing PEP/CDS sequences per species
+  - Task 1: Auto-scan species directories for PEP and CDS files
+  - Task 2: Parse HMMER domtblout targets, extract matching sequences via seqkit grep
+  - Task 3: CDS protein-to-transcript ID mapping (handles _P→_t, -P suffix removal, etc.)
+  - Full argparse CLI (positional pfam_id, -i/--input, -o/--output-dir, --skip-cds, --force, --pep-suffix/--cds-suffix)
+  - Semi-automated: auto-resolves paths from species_config if no explicit paths provided
+
 ## [0.2.0] - 2026-05-06
 
 ### Added
