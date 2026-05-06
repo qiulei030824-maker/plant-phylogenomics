@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# Data
+data/
+*.hmm
+*.domtblout
+*.fa
+*.faa
+*.log
+*.treefile
+*.support
+*.pdf
+*.png
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environments
+.env
+.venv/
+venv/
