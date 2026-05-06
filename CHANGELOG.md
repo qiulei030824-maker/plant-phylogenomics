@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.4.0] - 2026-05-06
+
+### Added
+- `scripts/04_build_domain_tree.py`: Build phylogenetic tree of domain-containing proteins
+  - Strategy: "all" (default, every sequence) or "longest" (one per species)
+  - MAFFT alignment with full parameter control (--mafft-custom, --mafft-args, --mafft-threads)
+  - IQ-TREE2 tree inference with full parameter control (--iqtree-custom, --iqtree-args)
+  - {input} and {prefix} placeholders for custom command substitution
+  - --skip-align / --skip-tree for step-by-step execution
+  - --force to re-run existing outputs
+  - Full argparse CLI (-i/--input-dir, -o/--output-dir, --align-dir, --tree-dir)
+  - Semi-automated: auto-resolves paths from species_config if no explicit paths provided
+
 ## [0.3.0] - 2026-05-06
 
 ### Added
