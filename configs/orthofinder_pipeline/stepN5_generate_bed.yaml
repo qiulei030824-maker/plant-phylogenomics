@@ -1,0 +1,8 @@
+# N5: Generate BED files
+stepN5:
+  species_list:
+    - ChineseLong
+    - arabidopsis_thaliana
+    - nicotiana_attenuata
+    - solanum_lycopersicum
+  data_dir: /data5/qiulei/pfam_pipeline/data

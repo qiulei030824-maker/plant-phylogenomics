@@ -1,0 +1,8 @@
+# R1: OrthoFinder Tree Visualization
+stepR1:
+  tree_file: /data5/qiulei/pfam_pipeline/data/orthofinder/results/species_tree.nwk
+  output_dir: /data5/qiulei/pfam_pipeline/data/orthofinder/results
+  og_name: species_tree
+  width: 12
+  height: 8
+  tip_size: 3

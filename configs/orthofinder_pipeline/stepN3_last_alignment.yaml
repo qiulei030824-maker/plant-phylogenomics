@@ -1,0 +1,9 @@
+# N3: LAST Alignment between species pairs
+stepN3:
+  species_list:
+    - ChineseLong
+    - arabidopsis_thaliana
+    - nicotiana_attenuata
+    - solanum_lycopersicum
+  threads: 4
+  cds_dir: /data5/qiulei/pfam_pipeline/data/PF00168/cds

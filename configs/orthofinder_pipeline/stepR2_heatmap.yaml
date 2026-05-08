@@ -1,0 +1,8 @@
+# R2: OrthoFinder Tree + Gene Count Heatmap
+stepR2:
+  tree_file: /data5/qiulei/pfam_pipeline/data/orthofinder/results/species_tree.nwk
+  output_dir: /data5/qiulei/pfam_pipeline/data/orthofinder/results
+  og_name: species_tree
+  width: 14
+  height: 10
+  tip_size: 2.5

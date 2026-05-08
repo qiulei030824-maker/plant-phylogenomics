@@ -1,0 +1,18 @@
+# N6: Highlighted macrosynteny chain plot
+stepN6:
+  species_list:
+    - ChineseLong
+    - arabidopsis_thaliana
+    - nicotiana_attenuata
+    - solanum_lycopersicum
+  # Edit highlight_pairs after inspecting the phylogenetic tree
+  highlight_pairs:
+    "ChineseLong.arabidopsis_thaliana":
+      - ["CsaV3_2G006560", "AT1G09070"]
+      - ["CsaV3_1G038880", "AT1G09070"]
+  species_labels:
+    ChineseLong: Cucumber
+    arabidopsis_thaliana: Arabidopsis
+    nicotiana_attenuata: Tobacco
+    solanum_lycopersicum: Tomato
+  highlight_color: "#ff0000"

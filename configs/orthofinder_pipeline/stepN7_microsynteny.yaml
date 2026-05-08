@@ -1,0 +1,24 @@
+# N7: Microsynteny plot with gene structure visualization
+stepN7:
+  # Target genes per species (select from phylogenetic tree)
+  targets:
+    ChineseLong:
+      - CsaV3_1G038880
+      - CsaV3_2G006560
+    arabidopsis_thaliana:
+      - AT1G09070
+  # Track definitions [species, gene]
+  tracks_def:
+    - ["ChineseLong", "CsaV3_1G038880"]
+    - ["ChineseLong", "CsaV3_2G006560"]
+    - ["arabidopsis_thaliana", "AT1G09070"]
+  # Edge connections between tracks (0-indexed)
+  track_edges:
+    - [0, 2]
+    - [1, 2]
+  # Number of neighboring genes to show
+  neighborhood: 10
+  # Target gene labels to highlight on the plot
+  target_gene_labels: "CsaV3_1G038880,AT1G09070"
+  # Data directory containing species GFF3 files
+  data_dir: /data5/qiulei/pfam_pipeline/data

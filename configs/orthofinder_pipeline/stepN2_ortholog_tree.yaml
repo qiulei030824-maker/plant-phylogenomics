@@ -1,0 +1,7 @@
+# N2: Build Ortholog Tree for a Target Gene
+stepN2:
+  target_gene: AT1G09070
+  orthofinder_dir: /data5/qiulei/pfam_pipeline/data/orthofinder
+  pfam_id: PF00168
+  threads: 8
+  bootstrap: 100

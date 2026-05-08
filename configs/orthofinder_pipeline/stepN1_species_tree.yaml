@@ -1,0 +1,8 @@
+# N1: Build Species Tree (OrthoFinder)
+stepN1:
+  proteome_dir: /data5/qiulei/pfam_pipeline/data/proteomes
+  output_dir: /data5/qiulei/pfam_pipeline/data/orthofinder
+  output_name: species_tree
+  threads: 16
+  msa_program: mafft
+  tree_method: dendroblast  # fast tree building for species tree

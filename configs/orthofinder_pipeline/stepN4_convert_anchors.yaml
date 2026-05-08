@@ -1,0 +1,7 @@
+# N4: Convert Anchors + LAST to SimpleFile format
+stepN4:
+  species_list:
+    - ChineseLong
+    - arabidopsis_thaliana
+    - nicotiana_attenuata
+    - solanum_lycopersicum
